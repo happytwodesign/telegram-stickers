@@ -1,0 +1,27 @@
+{
+  "name": "telegram-stickers",
+  "version": "1.0.0",
+  "description": "Starter server for a Telegram AI sticker pack bot with Supabase integration.",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "telegram",
+    "supabase",
+    "stickers",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
+}
